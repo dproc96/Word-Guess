@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TV Word Guess</title>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/9f2b75d707.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/layout.css">
+        <link rel="stylesheet" href="assets/css/module.css">
+        <link rel="stylesheet" href="assets/css/state.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Television Hangman</h1>
+        </header>
+        
+        <main>
+            <div class="box">
+                <div class="tv off">
+                    <div id="hangman">
+                        <img id="part-1" height="200px" class="hidden" src="assets/images/head-01.png" alt="head">
+                        <img id="part-2" height="200px" class="hidden" src="assets/images/body-01.png" alt="body">
+                        <img id="part-3" height="200px" class="hidden" src="assets/images/arm-left-01.png" alt="arm-left">
+                        <img id="part-4" height="200px" class="hidden" src="assets/images/arm-right-01.png" alt="arm-right">
+                        <img id="part-5" height="200px" class="hidden" src="assets/images/leg-left-01.png" alt="leg-left">
+                        <img id="part-6" height="200px" class="hidden" src="assets/images/leg-right-01.png" alt="leg-right">
+                    </div>
+
+                    <div id="wrong-letters">
+                    </div>
+
+                    <div id="phrase"></div>
+                </div>
+
+                <button id="generate" onclick="generateHangman()"><i class="fas fa-power-off"></i></button>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>

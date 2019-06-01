@@ -1,0 +1,14 @@
+.hidden {
+    display: none;
+}
+
+.off {
+    background-image: url("../images/static.gif");
+}
+
+button:active {
+    background-color: #777777;
+}
+button:focus {
+    outline: none;
+}

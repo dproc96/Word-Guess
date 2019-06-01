@@ -1,0 +1,42 @@
+.tv {
+    background-color: #222222;
+    background-size: cover;
+    width: 750px;
+    height: 500px;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    color: #dddddd;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #222222;
+    position: relative;
+    grid-template-rows: 250px 1fr 1fr;
+}
+
+.box {
+    background-image: url("../images/tvbackground.jpg");
+    background-size: cover;
+    width: 900px;
+    height: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#phrase {
+    grid-row: 3 / 4;
+}
+
+#hangman {
+    grid-row: 1 / 2;
+}
+
+#wrong-letters {
+    grid-row: 2 / 3;
+}

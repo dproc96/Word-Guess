@@ -1,0 +1,41 @@
+span {
+    margin: 5px;
+}
+
+div {
+    margin-right: 15px;
+}
+
+button {
+    padding: 20px;
+    display: block;
+    margin: 15px auto auto auto;
+    border-radius: 100%;
+    border-style: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+body {
+    background-image: url("../images/background.gif");
+    background-size: cover;
+    background-blend-mode: screen;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header {
+    background-image: url("../images/tvbackground.jpg");
+    background-size: cover;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img {
+    position: absolute;
+    top: 10px;
+    right: 305px;
+}
