@@ -1,8 +1,8 @@
 .tv {
     background-color: #222222;
     background-size: cover;
-    width: 750px;
-    height: 400px;
+    width: 90%;
+    height: 80%;
     display: grid;
     margin-right: auto;
     margin-left: auto;
@@ -20,7 +20,7 @@
 .box {
     background-image: url("../images/tvbackground.jpg");
     background-size: cover;
-    width: 900px;
+    width: 90%;
     height: 500px;
     display: block;
     margin-right: auto;
